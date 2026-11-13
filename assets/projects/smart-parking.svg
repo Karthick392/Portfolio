@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101d16"/>
+      <stop offset="1" stop-color="#080b09"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.05" r="0.7">
+      <stop offset="0" stop-color="#30d158" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#30d158" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6df29a"/>
+      <stop offset="1" stop-color="#25b34a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <rect width="800" height="500" fill="url(#glow)"/>
+  <rect x="32" y="28" width="736" height="444" rx="20" fill="#0b0f0d" stroke="#ffffff" stroke-opacity="0.1"/>
+
+  <text x="56" y="68" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="600" fill="#f2f7f3">Smart Parking</text>
+  <text x="56" y="86" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#7f8a83">Live occupancy · Level 2</text>
+
+  <rect x="626" y="50" width="118" height="28" rx="14" fill="#30d158" fill-opacity="0.12" stroke="#30d158" stroke-opacity="0.3"/>
+  <circle cx="644" cy="64" r="4" fill="#30d158"/>
+  <text x="656" y="68" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#9fe8b4">Live · Updated</text>
+
+  <rect x="56" y="104" width="470" height="340" rx="14" fill="#0f1512" stroke="#ffffff" stroke-opacity="0.07"/>
+  <text x="74" y="130" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#8b958f">Level 2 · East wing</text>
+
+  <g>
+    <rect x="74" y="148" width="78" height="82" rx="8" fill="#30d158" fill-opacity="0.14" stroke="#30d158" stroke-opacity="0.35"/>
+    <rect x="95" y="163" width="36" height="52" rx="10" fill="#30d158" fill-opacity="0.35" stroke="#7ef0a0" stroke-opacity="0.5"/>
+    <rect x="100" y="174" width="26" height="14" rx="5" fill="#0b0f0d" fill-opacity="0.5"/>
+
+    <rect x="164" y="148" width="78" height="82" rx="8" fill="#ffffff" fill-opacity="0.025" stroke="#ffffff" stroke-opacity="0.09"/>
+    <text x="203" y="196" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="#30d158" fill-opacity="0.55">P</text>
+
+    <rect x="254" y="148" width="78" height="82" rx="8" fill="#30d158" fill-opacity="0.14" stroke="#30d158" stroke-opacity="0.35"/>
+    <rect x="275" y="163" width="36" height="52" rx="10" fill="#30d158" fill-opacity="0.35" stroke="#7ef0a0" stroke-opacity="0.5"/>
+    <rect x="280" y="174" width="26" height="14" rx="5" fill="#0b0f0d" fill-opacity="0.5"/>
+
+    <rect x="344" y="148" width="78" height="82" rx="8" fill="#ffffff" fill-opacity="0.025" stroke="#ffffff" stroke-opacity="0.09"/>
+    <text x="383" y="196" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="#30d158" fill-opacity="0.55">P</text>
+
+    <rect x="434" y="148" width="78" height="82" rx="8" fill="#30d158" fill-opacity="0.14" stroke="#30d158" stroke-opacity="0.35"/>
+    <rect x="455" y="163" width="36" height="52" rx="10" fill="#30d158" fill-opacity="0.35" stroke="#7ef0a0" stroke-opacity="0.5"/>
+    <rect x="460" y="174" width="26" height="14" rx="5" fill="#0b0f0d" fill-opacity="0.5"/>
+
+    <rect x="74" y="246" width="78" height="82" rx="8" fill="#ffffff" fill-opacity="0.025" stroke="#ffffff" stroke-opacity="0.09"/>
+    <text x="113" y="294" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="#30d158" fill-opacity="0.55">P</text>
+
+    <rect x="164" y="246" width="78" height="82" rx="8" fill="#30d158" fill-opacity="0.14" stroke="#30d158" stroke-opacity="0.35"/>
+    <rect x="185" y="261" width="36" height="52" rx="10" fill="#30d158" fill-opacity="0.35" stroke="#7ef0a0" stroke-opacity="0.5"/>
+    <rect x="190" y="272" width="26" height="14" rx="5" fill="#0b0f0d" fill-opacity="0.5"/>
+
+    <rect x="254" y="246" width="78" height="82" rx="8" fill="#30d158" fill-opacity="0.22" stroke="#6df29a" stroke-width="1.6"/>
+    <text x="293" y="294" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="#9ff5bb">P</text>
+
+    <rect x="344" y="246" width="78" height="82" rx="8" fill="#ffffff" fill-opacity="0.025" stroke="#ffffff" stroke-opacity="0.09"/>
+    <text x="383" y="294" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="#30d158" fill-opacity="0.55">P</text>
+
+    <rect x="434" y="246" width="78" height="82" rx="8" fill="#30d158" fill-opacity="0.14" stroke="#30d158" stroke-opacity="0.35"/>
+    <rect x="455" y="261" width="36" height="52" rx="10" fill="#30d158" fill-opacity="0.35" stroke="#7ef0a0" stroke-opacity="0.5"/>
+    <rect x="460" y="272" width="26" height="14" rx="5" fill="#0b0f0d" fill-opacity="0.5"/>
+
+    <rect x="74" y="344" width="78" height="82" rx="8" fill="#30d158" fill-opacity="0.14" stroke="#30d158" stroke-opacity="0.35"/>
+    <rect x="95" y="359" width="36" height="52" rx="10" fill="#30d158" fill-opacity="0.35" stroke="#7ef0a0" stroke-opacity="0.5"/>
+    <rect x="100" y="370" width="26" height="14" rx="5" fill="#0b0f0d" fill-opacity="0.5"/>
+
+    <rect x="164" y="344" width="78" height="82" rx="8" fill="#ffffff" fill-opacity="0.025" stroke="#ffffff" stroke-opacity="0.09"/>
+    <text x="203" y="392" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="#30d158" fill-opacity="0.55">P</text>
+
+    <rect x="254" y="344" width="78" height="82" rx="8" fill="#ffffff" fill-opacity="0.025" stroke="#ffffff" stroke-opacity="0.09"/>
+    <text x="293" y="392" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="#30d158" fill-opacity="0.55">P</text>
+
+    <rect x="344" y="344" width="78" height="82" rx="8" fill="#30d158" fill-opacity="0.14" stroke="#30d158" stroke-opacity="0.35"/>
+    <rect x="365" y="359" width="36" height="52" rx="10" fill="#30d158" fill-opacity="0.35" stroke="#7ef0a0" stroke-opacity="0.5"/>
+    <rect x="370" y="370" width="26" height="14" rx="5" fill="#0b0f0d" fill-opacity="0.5"/>
+
+    <rect x="434" y="344" width="78" height="82" rx="8" fill="#ffffff" fill-opacity="0.025" stroke="#ffffff" stroke-opacity="0.09"/>
+    <text x="473" y="392" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="#30d158" fill-opacity="0.55">P</text>
+  </g>
+
+  <rect x="546" y="104" width="190" height="340" rx="14" fill="#0f1512" stroke="#ffffff" stroke-opacity="0.07"/>
+  <text x="562" y="130" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#8b958f">Availability</text>
+
+  <circle cx="641" cy="214" r="54" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="8"/>
+  <circle cx="641" cy="214" r="54" fill="none" stroke="url(#green)" stroke-width="8" stroke-linecap="round" stroke-dasharray="203 340" transform="rotate(-90 641 214)"/>
+  <text x="641" y="218" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="30" font-weight="600" fill="#f2f7f3">24</text>
+  <text x="641" y="236" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="8" fill="#8b958f">of 40 bays</text>
+
+  <circle cx="566" cy="296" r="4" fill="#30d158"/>
+  <text x="578" y="300" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#c3ccc6">Occupied</text>
+  <text x="720" y="300" text-anchor="end" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#eef4f0">16</text>
+
+  <circle cx="566" cy="324" r="4" fill="#ffffff" fill-opacity="0.35"/>
+  <text x="578" y="328" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#c3ccc6">Available</text>
+  <text x="720" y="328" text-anchor="end" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#eef4f0">24</text>
+
+  <circle cx="566" cy="352" r="4" fill="#ff9f0a"/>
+  <text x="578" y="356" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#c3ccc6">Reserved</text>
+  <text x="720" y="356" text-anchor="end" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#eef4f0">0</text>
+
+  <line x1="562" y1="380" x2="720" y2="380" stroke="#ffffff" stroke-opacity="0.08"/>
+  <text x="562" y="404" font-family="'Segoe UI', Arial, sans-serif" font-size="8" fill="#7f8a83">Gate A open · 4 entries today</text>
+</svg>
